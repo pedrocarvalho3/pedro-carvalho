@@ -1,6 +1,6 @@
 export function Introduction() {
   return (
-    <div className="flex flex-col mt-8 text-left max-w-2xl mx-auto">
+    <div className="flex flex-col mt-12 text-left max-w-2xl mx-auto">
       <p className="text-tiffany-blue mb-4">Hi, my name is</p>
       <h1 className="text-4xl text-gray-300">Pedro Carvalho</h1>
       <h1 className="text-4xl text-gray-500 mb-2">

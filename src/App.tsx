@@ -1,7 +1,9 @@
 import { NavBar } from "./components/NavBar";
 import "./styles/main.css";
 
-import image1 from "./images/img1.png";
+import db from '../db.js'
+
+import image1 from "../assets/img1.png";
 import { Introduction } from "./components/Introduction";
 import { About } from "./components/About";
 import { Skills } from "./components/Skills";
@@ -16,7 +18,7 @@ export function App() {
       <Introduction />
       <About />
       <Skills />
-      <Projects/>
+      <Projects projects={db} />
       <Contact />
     </div>
   );

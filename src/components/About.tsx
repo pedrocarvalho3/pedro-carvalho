@@ -1,9 +1,9 @@
-import me from "../images/me.png";
+import me from "../../assets/me.png";
 
 export function About() {
   return (
-    <div className="flex flex-col items-center text-left max-w-2xl mx-auto my-20 gap-8 border-b-xl border-gray-500">
-        <h1 className="text-gray-300 before:content-['01.'] before:mr-2 before:text-tiffany-blue text-3xl">
+    <div className="flex flex-col items-center text-left max-w-2xl mx-auto mt-20 mb-10 pb-10 gap-8 border-b-[1px] border-gray-500">
+        <h1 className="text-gray-300 before:content-['01.'] before:mr-2 before:text-tiffany-blue text-3xl border-b-[1px] border-gray-500 w-full">
           About Me
         </h1>
       <p className="text-gray-500">
@@ -41,7 +41,7 @@ export function About() {
         because I love to study and learn new things, so who knows, in the
         future, I can be part of something great within this area.
       </p>
-      <img src={me} alt="Me" className="w-64 rounded-2xl bg-tiffany-blue hover:-translate-y-2 hover:shadow-lg cursor-pointer" />
+      <img src={me} alt="Me" className="w-64 rounded-2xl bg-tiffany-blue hover:-translate-y-2 hover:shadow-lg transition-all" />
     </div>
   );
 }

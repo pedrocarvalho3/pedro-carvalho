@@ -1,9 +1,9 @@
 export function Skills() {
   return (
-    <div className="flex flex-col text-left items-center max-w-2xl mx-auto my-32 gap-8">
-      <h1 className="text-gray-300 before:content-['02.'] before:mr-2 before:text-tiffany-blue text-3xl">
-        Skills
-      </h1>
+    <div className="flex flex-col text-left items-center max-w-2xl mx-auto mt-20 mb-10 pb-10 gap-8 border-b-[1px] border-gray-500">
+        <h1 className="text-gray-300 before:content-['02.'] before:mr-2 before:text-tiffany-blue text-3xl border-b-[1px] border-gray-500 w-full">
+          Skills
+        </h1>
 
       <div className="flex flex-col gap-4">
         <h2 className="text-2xl text-gray-500">
