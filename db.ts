@@ -15,19 +15,19 @@ export default (
             id: 2,
             name: "Trillo",
             image: trillo,
-            url: "https://github.com/ThePdrXx/trillo-interface"
+            url: "https://trillo-interface.netlify.app/"
         },
         {
             id: 3,
             name: "Natuors",
             image: natuors,
-            url: "https://github.com/ThePdrXx/natours-interface"
+            url: "https://natuors-interface.netlify.app/"
         },
         {
             id: 4,
             name: "Nexter",
             image: nexter,
-            url: "https://github.com/ThePdrXx/nexter-interface"
+            url: "https://nexter-interface.netlify.app"
         },
     ]
 )
